@@ -1,2 +1,2 @@
 # gynproductosnaturales
-Pagin web de Gabriela y Natalia
+Pagina web de Gabriela y Natalia

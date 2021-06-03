@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <title>G&N Productos Naturales</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee" rel="stylesheet">
+
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class="contenedor">
+        <div class="menu">
+            <p>GyN Productos Naturales</p>    
+            <nav>
+                <ul class="lista" style="color:#31B404">
+                  <li><b><a href="categoria.html">Productos</a></b></li>
+                  <b><li>Trabajos Personalizados</li></b>
+                  <li><b>Sobre Nosotras</b></li>
+                  <li><b>Contacto</b></li>
+                </ul>
+            </nav>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="social-bar">
+      <a href="https://www.facebook.com/GyNProductosNaturales/" class="icon icon-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/gyn_productosnaturales" class="icon icon-instagram" target="_blank"></a>
+      <a href="https://wa.me/5493765221456" class="icon icon-whatsapp" target="_blank"></a>
+    </div>
+
+    <section>
+      <div class="contenedor">
+        <h3><b>Productos</b></h3>
+        <div class="owl-carousel">
+          <div><img src="foto1.jpg"></div>
+          <div><img src="foto2.jpg"></div>
+          <div><img src="foto3.jpg"></div>
+          <div><img src="foto4.jpg"></div>
+          <div><img src="foto5.jpg"></div>
+          <div><img src="foto6.jpg"></div>
+          <div><img src="foto7.jpg"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:20,
+      nav:true,
+      responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:4
+        },
+      }
+    })
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,131 @@
+body{
+  font-family: 'Handlee', cursive;
+  font-size: 18pt;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: url(fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+/*::::::::::::SIEMPRE::::::::::::*/
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+/*::::::::::::::::::::::::::::::::*/
+
+/* Redes Sociales */
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-instagram {
+	background: #517fa4;
+}
+
+.icon-whatsapp {
+	background: MediumSpringGreen;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+/* MENU */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*justify-content: right;
+  align-items: right;*/
+}
+.menu-icon {
+  display: none;
+  /*object-fit: cover;
+  object-position: center;*/
+}
+
+p {
+  font-size: 25px;
+  color: MediumSpringGreen;
+}
+
+/*Colocamos la lista una al lado de la otra*/
+ul{
+  display: flex;
+  justify-content: right;
+}
+
+.lista {
+  display: flex;
+  justify-content: right;
+
+}
+
+/*Quitamos los puntos de las listas y Separamos entre si*/
+li{
+  list-style: none;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: MediumSeaGreen;
+}
+
+/* ARRANCA SECCION "PRODUCTOS" */
+h3 {
+  text-align: center;
+  font-size: 55px;
+  color: green;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+span {
+  font-size: 60px;
+  color: green;
+}
+.owl-nav {
+  text-align: center;
+  margin-top: 40px;
+}
